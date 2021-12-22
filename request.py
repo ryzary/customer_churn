@@ -8,11 +8,6 @@ url = 'http://192.168.150.101:9696/predict'
 
 def get_prediction(url, input):
     response = requests.post(url, json=input).json()
-
-    if response['churn'] == True:
-        print('Sending promo email to this customer.')
-    else:
-        print("Don't send a promo email")
     return response
 
 
