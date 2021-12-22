@@ -10,7 +10,7 @@
 </div>
 
 
-# ChurnY : A Customer Churn Predictor
+# Customer Churn Predictor
 
 
 <!-- ABOUT THE PROJECT -->
